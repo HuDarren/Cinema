@@ -16,12 +16,10 @@
   width: auto;
   margin-top: 30px;
   max-width: 1000px;
-  font-family: ui-sans-serif;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .profileAbout {
-  margin-top: 50px;
   margin-bottom: 100px;
   height: 30%;
   width: 70%;
@@ -34,6 +32,32 @@
 .profileAbout1 {
   font-size: 40px;
   margin-bottom: 30px;
+  color: rgb(131, 131, 212);
+}
+
+.profile-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.profile-text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  display: flex;
+}
+
+.profile-title {
+  font-size: 40px;
+  margin-bottom: 30px;
   font-weight: 700;
   color: rgb(131, 131, 212);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
