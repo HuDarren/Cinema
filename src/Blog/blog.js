@@ -4,7 +4,7 @@ import "./blog.css";
 
 function Blog() {
   return (
-    <div>
+    <div id="blog">
       <div>
         <div className="blog-space" />
         <div className="project-title"> RECENT BLOGS </div>
