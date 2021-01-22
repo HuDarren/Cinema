@@ -30,14 +30,12 @@
 
 .nav-log-container {
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
 }
 
 .nav-log {
-  margin-right: 2%;
-  margin-left: 2%;
+  margin-right: 5%;
   width: 80px;
+  text-align: center;
 }
 
 .nav-log2 {
