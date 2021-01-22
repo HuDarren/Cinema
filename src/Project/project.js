@@ -6,13 +6,13 @@ import "./project.css";
 
 function Project() {
   return (
-    <div>
+    <div id="project">
       <div className="project-container">
         <div className="project-title">PROJECTS </div>
         <div className="project-cards">
+          <Project3 />
           <Project1 />
           <Project2 />
-          <Project3 />
         </div>
       </div>
     </div>
