@@ -1,9 +1,12 @@
 .message-container {
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
-  margin-right: 25%;
   margin-top: 5%;
+  align-items: center;
+}
+
+.message-content {
+  width: 400px;
 }
 
 .message-input {
@@ -48,8 +51,8 @@
   outline: 0;
   border-radius: 20px !important;
   color: #fff;
-  background-color: teal;
-  border-color: teal;
+  background-color: black;
+  border-color: black;
   padding: 0.1em 0.9em;
   margin-right: 2%;
   margin-bottom: 10%;

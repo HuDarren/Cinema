@@ -29,7 +29,7 @@ function Contact() {
   }
 
   return (
-    <div>
+    <div id="contact">
       <div className="project-title">Contact</div>
       <div className="contact-text">Feel Free to Connect with Me</div>
 
@@ -43,45 +43,47 @@ function Contact() {
           url="https://github.com/HuDarren"
         />
       </div>
-      <form className="message-container" onSubmit={handleSubmit}>
-        <div className="contact-text">Email Me</div>
-        <div>
-          <input
-            className="message-input"
-            placeholder="Enter Your Name"
-            name="name"
-            type="text"
-            value={state.name}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <input
-            className="message-input"
-            placeholder="Enter Your Email"
-            name="email"
-            type="text"
-            value={state.email}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <textarea
-            className="message-detail"
-            placeholder="Enter Your Message"
-            name="message"
-            type="text"
-            rows="5"
-            value={state.message}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="message-button-container ">
-          <button className="message-button1" type="submit">
-            Send
-          </button>
-        </div>
-      </form>
+      <div className="message-container">
+        <form className="message-content" onSubmit={handleSubmit}>
+          <div className="contact-text">Email Me</div>
+          <div>
+            <input
+              className="message-input"
+              placeholder="Enter Your Name"
+              name="name"
+              type="text"
+              value={state.name}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <input
+              className="message-input"
+              placeholder="Enter Your Email"
+              name="email"
+              type="text"
+              value={state.email}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <textarea
+              className="message-detail"
+              placeholder="Enter Your Message"
+              name="message"
+              type="text"
+              rows="5"
+              value={state.message}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="message-button-container ">
+            <button className="message-button1" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
