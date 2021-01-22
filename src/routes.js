@@ -1,7 +1,6 @@
 import React from "react";
 import { withRouter, Route, Switch } from "react-router-dom";
 import LandingHome from "./Landing/landingHome";
-import Blog from "./Blog/blog";
 import Database from "./Blog/blog1";
 import Network from "./Blog/blog2";
 import ReactHook from "./Blog/blog3";
