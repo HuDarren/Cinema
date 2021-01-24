@@ -10,7 +10,7 @@ function Routes() {
   return (
     <div className="">
       <Switch>
-        <Route exact path="/home" component={LandingHome} />
+        <Route exact path="/" component={LandingHome} />
         <Route exact path="/blog/database" component={Database} />
         <Route exact path="/blog/networks" component={Network} />
         <Route exact path="/blog/reactHooks" component={ReactHook} />
