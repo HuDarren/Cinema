@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import emailjs from "emailjs-com";
-import { mailkey, mailId } from "../secrets";
+// import emailjs from "emailjs-com";
+// import { mailkey, mailId } from "../secrets";
 import "./contact.css";
 
 function Contact() {
