@@ -8,7 +8,7 @@ import RestApi from "./Blog/blog4";
 
 function Routes() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/hudarren">
       <Route exact path="/" component={LandingHome} />
       <Route exact path="/blog/database" component={Database} />
       <Route exact path="/blog/networks" component={Network} />
