@@ -11,22 +11,22 @@ function Contact() {
     message: "",
   });
 
-  function handleChange(event) {
-    setstate({ ...state, [event.target.name]: event.target.value });
-  }
+  // function handleChange(event) {
+  //   setstate({ ...state, [event.target.name]: event.target.value });
+  // }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    emailjs.send("Email", mailId, state, mailkey).then(
-      (response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      (err) => {
-        console.log("FAILED...", err);
-      }
-    );
-    setstate({ name: "", email: "", message: "" });
-  }
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  //   emailjs.send("Email", mailId, state, mailkey).then(
+  //     (response) => {
+  //       console.log("SUCCESS!", response.status, response.text);
+  //     },
+  //     (err) => {
+  //       console.log("FAILED...", err);
+  //     }
+  //   );
+  //   setstate({ name: "", email: "", message: "" });
+  // }
 
   return (
     <div id="contact">
@@ -43,7 +43,7 @@ function Contact() {
           url="https://github.com/HuDarren"
         />
       </div>
-      <div className="message-container">
+      {/* <div className="message-container">
         <form className="message-content" onSubmit={handleSubmit}>
           <div className="contact-text">Email Me</div>
           <div>
@@ -83,7 +83,7 @@ function Contact() {
             </button>
           </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
