@@ -8,14 +8,12 @@ import RestApi from "./Blog/blog4";
 
 function Routes() {
   return (
-    <HashRouter>
-      <Switch>
-        <Route exact path="/" component={LandingHome} />
-        <Route exact path="/blog/database" component={Database} />
-        <Route exact path="/blog/networks" component={Network} />
-        <Route exact path="/blog/reactHooks" component={ReactHook} />
-        <Route exact path="/blog/restAPI" component={RestApi} />
-      </Switch>
+    <HashRouter basename="/">
+      <Route exact path="/" component={LandingHome} />
+      <Route exact path="/blog/database" component={Database} />
+      <Route exact path="/blog/networks" component={Network} />
+      <Route exact path="/blog/reactHooks" component={ReactHook} />
+      <Route exact path="/blog/restAPI" component={RestApi} />
     </HashRouter>
   );
 }
