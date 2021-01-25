@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/hudarren/static/css/main.6b61c257.chunk.css",
-    "main.js": "/hudarren/static/js/main.a422f6ff.chunk.js",
-    "main.js.map": "/hudarren/static/js/main.a422f6ff.chunk.js.map",
+    "main.js": "/hudarren/static/js/main.23f97c4e.chunk.js",
+    "main.js.map": "/hudarren/static/js/main.23f97c4e.chunk.js.map",
     "runtime-main.js": "/hudarren/static/js/runtime-main.af631d64.js",
     "runtime-main.js.map": "/hudarren/static/js/runtime-main.af631d64.js.map",
-    "static/js/2.504e5eb4.chunk.js": "/hudarren/static/js/2.504e5eb4.chunk.js",
-    "static/js/2.504e5eb4.chunk.js.map": "/hudarren/static/js/2.504e5eb4.chunk.js.map",
+    "static/js/2.3a1fd87c.chunk.js": "/hudarren/static/js/2.3a1fd87c.chunk.js",
+    "static/js/2.3a1fd87c.chunk.js.map": "/hudarren/static/js/2.3a1fd87c.chunk.js.map",
     "static/js/3.dcae8c09.chunk.js": "/hudarren/static/js/3.dcae8c09.chunk.js",
     "static/js/3.dcae8c09.chunk.js.map": "/hudarren/static/js/3.dcae8c09.chunk.js.map",
     "index.html": "/hudarren/index.html",
     "static/css/main.6b61c257.chunk.css.map": "/hudarren/static/css/main.6b61c257.chunk.css.map",
-    "static/js/2.504e5eb4.chunk.js.LICENSE.txt": "/hudarren/static/js/2.504e5eb4.chunk.js.LICENSE.txt"
+    "static/js/2.3a1fd87c.chunk.js.LICENSE.txt": "/hudarren/static/js/2.3a1fd87c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af631d64.js",
-    "static/js/2.504e5eb4.chunk.js",
+    "static/js/2.3a1fd87c.chunk.js",
     "static/css/main.6b61c257.chunk.css",
-    "static/js/main.a422f6ff.chunk.js"
+    "static/js/main.23f97c4e.chunk.js"
   ]
 }
